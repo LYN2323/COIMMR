@@ -1,4 +1,4 @@
-# COIMMR
+## COIMMR
 These files are the key script for the COIMMR
 Code used for the analysis of the paper:
 
