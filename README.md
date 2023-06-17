@@ -19,25 +19,25 @@ input
      
 ## STEP 2 Correlation analysis
 Description: Calculation of the immunological similarity score (Iscore) or metabolic similarity score (Mscore).
-input
+# input
      Enrichment analysis results for cancer
      Enrichment analysis results for herbal ingredient
      
 ## STEP 3 permutation test
-input
+# input
      Randomly generated immune/metabolic signature
      Cancer Gene Expression Profiles
      Gene expression profiles of herbal ingredients
      
 ## STEP 4 
 Description: Calculating the direct modulating effect of herbal ingredients on cancer(OCES).
-input
+# input
      cancer signature (Cancer up Gene ; Cancer down Gene)
      Gene expression profiles of herbal ingredients
      
 ## STEP 5
 Description:The correlation between OCES and Iscore or Mscore was determined to quantify the contribution of the regulatory effects of herbal ingredients on the immune microenvironment and reprogrammed metabolic processes to their anti-human cancer activities.
-input
+# input
      OCES values
      immunological similarity score/metabolic similarity score
      
