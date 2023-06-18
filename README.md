@@ -41,7 +41,7 @@ Description:The correlation between OCES and Iscore or Mscore was determined to 
 # STEP 6
 Description:Screening and ranking of drug candidates
 
-# Syetem requirement
+# System requirement
 R studio 4.0.4 R version 4.0.4 (2021-02-15)
 Platform: x86_64-pc-linux-gnu (64-bit)
 Running under: Ubuntu 20.04.2 LTS
