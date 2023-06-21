@@ -22,20 +22,21 @@ Description: Calculation of the immunological similarity score (Iscore) or metab
      
 # STEP 3 permutation test
 Description: Assessing the significance of the therapeutic relationship                                                                                 
- step3.1:Random generation of 1000 immune signature sets (one immune signature set consists of 608 immune signatures)                                
- step3.2:Enrichment analysis of randomly generated immune signatures in cancer expression profiling 1000 times                                       
- step3.3:Enrichment analysis of randomly generated immune signatures in herbal ingredients expression profiling 1000 times                                
- step3.4:Null distribution of similarity scores obtained 
- step3.5:Calculation of p-values and FDR for immune similarity scores/metabolic similarity score score
+ ### step3.1:Random generation of 1000 immune signature sets (one immune signature set consists of 608 immune signatures)                                
+ ### step3.2:Enrichment analysis of randomly generated immune signatures in cancer expression profiling 1000 times                                       
+ ### step3.3:Enrichment analysis of randomly generated immune signatures in herbal ingredients expression profiling 1000 times                                
+ ### step3.4:Null distribution of similarity scores obtained 
+ ### step3.5:Calculation of p-values and FDR for immune similarity scores/metabolic similarity score score
 ## input
      Randomly generated immune/metabolic signature (step3.1)
      Cancer Gene Expression Profiles 
      Gene expression profiles of herbal ingredients
+     Immunosimilarity score score/Metabolic similarity score score (step2)
      
 # STEP 4 
 Description: Calculating the direct modulating effect of herbal ingredients on cancer(OCES).                                                      
- step4.1:Construction of cancer signatures                                                                                                             
- step4.1:Reverse GSEA (RGSEA) of cancer signatures in the herbal ingredient gene expression profiles
+### step4.1:Construction of cancer signatures                                                                                                             
+### step4.1:Reverse GSEA (RGSEA) of cancer signatures in the herbal ingredient gene expression profiles
 ## input
      cancer signature (Cancer up Gene ; Cancer down Gene)
      Gene expression profiles of herbal ingredients
