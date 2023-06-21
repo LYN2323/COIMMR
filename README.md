@@ -17,16 +17,16 @@ Description: CalculatING the NES values of corresponding immune signetures and m
 # STEP 2 Correlation analysis
 Description: Calculation of the immunological similarity score (Iscore) or metabolic similarity score (Mscore).
 ## input
-     Enrichment analysis results for cancer
-     Enrichment analysis results for herbal ingredient
+     Enrichment analysis results for cancer (step1)
+     Enrichment analysis results for herbal ingredient (step1)
      
 # STEP 3 permutation test
 Description: Assessing the significance of the therapeutic relationship                                                                                 
- ### step3.1:Random generation of 1000 immune signature sets (one immune signature set consists of 608 immune signatures)                                
- ### step3.2:Enrichment analysis of randomly generated immune signatures in cancer expression profiling 1000 times                                       
- ### step3.3:Enrichment analysis of randomly generated immune signatures in herbal ingredients expression profiling 1000 times                                
- ### step3.4:Null distribution of similarity scores obtained 
- ### step3.5:Calculation of p-values and FDR for immune similarity scores/metabolic similarity score score
+ step3.1:Random generation of 1000 immune signature sets (one immune signature set consists of 608 immune signatures)                                
+ step3.2:Enrichment analysis of randomly generated immune signatures in cancer expression profiling 1000 times                                       
+ step3.3:Enrichment analysis of randomly generated immune signatures in herbal ingredients expression profiling 1000 times                                
+ step3.4:Null distribution of similarity scores obtained 
+ step3.5:Calculation of p-values and FDR for immune similarity scores/metabolic similarity score score
 ## input
      Randomly generated immune/metabolic signature (step3.1)
      Cancer Gene Expression Profiles 
@@ -35,17 +35,17 @@ Description: Assessing the significance of the therapeutic relationship
      
 # STEP 4 
 Description: Calculating the direct modulating effect of herbal ingredients on cancer(OCES).                                                      
-### step4.1:Construction of cancer signatures                                                                                                             
-### step4.1:Reverse GSEA (RGSEA) of cancer signatures in the herbal ingredient gene expression profiles
+step4.1:Construction of cancer signatures                                                                                                             
+step4.2:Reverse GSEA (RGSEA) of cancer signatures in the herbal ingredient gene expression profiles
 ## input
-     cancer signature (Cancer up Gene ; Cancer down Gene)
+     cancer signature (Cancer up Gene ; Cancer down Gene,step4.1)
      Gene expression profiles of herbal ingredients
      
 # STEP 5
 Description:The correlation between OCES and Iscore or Mscore was determined to quantify the contribution of the regulatory effects of herbal ingredients on the immune microenvironment and reprogrammed metabolic processes to their anti-human cancer activities.
 ## input
-     OCES values
-     immunological similarity score/metabolic similarity score
+     OCES values (step4.2)
+     immunological similarity score/metabolic similarity score (step2)
      
 # STEP 6
 Description:Screening and ranking of drug candidates
