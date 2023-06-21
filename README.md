@@ -21,12 +21,8 @@ Description: Calculation of the immunological similarity score (Iscore) or metab
      Enrichment analysis results for herbal ingredient
      
 # STEP 3 permutation test
-Description: Assessing the significance of the therapeutic relationship
-step3.1:Random generation of 1000 immune signature sets (one immune signature set consists of 608 immune signatures)
-step3.2:Enrichment analysis of randomly generated immune signatures in cancer expression profiling 1000 times
-step3.3:Enrichment analysis of randomly generated immune signatures in herbal ingredients expression profiling 1000 times
-step3.4:Null distribution of similarity scores obtained
-step3.5:Calculation of p-values and FDR for immune similarity scores/metabolic similarity score score
+Description: Assessing the significance of the therapeutic relationship  step3.1:Random generation of 1000 immune signature sets (one immune signature set consists of 608 immune signatures)  step3.2:Enrichment analysis of randomly generated immune signatures in cancer expression profiling 1000 times  step3.3:Enrichment analysis of randomly generated immune signatures in herbal ingredients expression profiling 1000 times  step3.4:Null distribution of similarity scores obtained 
+ step3.5:Calculation of p-values and FDR for immune similarity scores/metabolic similarity score score
 ## input
      Randomly generated immune/metabolic signature (step3.1)
      Cancer Gene Expression Profiles 
