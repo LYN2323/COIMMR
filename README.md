@@ -22,8 +22,8 @@ Description: Calculation of the immunological similarity score (Iscore) or metab
      
 # STEP 3 permutation test
 ## input
-     Randomly generated immune/metabolic signature
-     Cancer Gene Expression Profiles
+     Randomly generated immune/metabolic signature ###step3.1
+     Cancer Gene Expression Profiles ###step3.2
      Gene expression profiles of herbal ingredients
      
 # STEP 4 
